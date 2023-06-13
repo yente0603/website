@@ -39,3 +39,18 @@
     margin-left: -20px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+  .wrapping_film_list{
+    padding-left: 120px;
+    display: flex;
+    align-items: flex-start;
+  }  
+}
+@media screen and (max-width: 767px) {
+    .wrapping_film_list{
+      padding-left: 120px;
+      display: flex;
+      align-items: flex-start;
+    }  
+  }
